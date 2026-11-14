@@ -2,6 +2,12 @@
 
 Sidebar-footer icons that open a specific bb Settings page in one click.
 
+![bb sidebar footer with Providers and Projects shortcut icons; hovering one shows its tooltip](docs/footer.png)
+
+Pick and order the pages in the plugin settings:
+
+![Settings Shortcuts settings: the pages in the footer, with up/down/remove controls, and a filterable list of all settings pages](docs/settings.png)
+
 - Defaults: **Providers** and **Projects**.
 - Choose and order pages under Settings → Plugins → **Settings Shortcuts** → Footer icons:
   any built-in section, any enabled plugin's page, or any project's settings page.
@@ -17,3 +23,7 @@ Notes
   changes its Settings routes.
 
 Build: `bb plugin build . && bb plugin reload settings-shortcuts`
+
+## License
+
+MIT
